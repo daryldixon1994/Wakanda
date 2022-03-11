@@ -1,7 +1,6 @@
 import React from "react";
 import "./FrameItem.css";
 function FrameItem({ item }) {
-    console.log(item);
     return (
         <div className="item-container">
             <img src={item.icon} alt="icon" width={108} />

@@ -24,3 +24,26 @@ export const featuresData = [
             "We know that safety is the most important thing for our customer, so all of our payments are processed instantly and securely.",
     },
 ];
+
+export const tutoData = [
+    {
+        id: 1,
+        text: "Sign in to our website",
+    },
+    {
+        id: 2,
+        text: "Fill out neccesary information",
+    },
+    {
+        id: 3,
+        text: "Discover thoudsands of freelancers",
+    },
+    {
+        id: 4,
+        text: "View freelancer’s profile and hire",
+    },
+    {
+        id: 5,
+        text: "Complete payment & it’s time to work!",
+    },
+];

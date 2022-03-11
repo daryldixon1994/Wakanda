@@ -1,5 +1,5 @@
 import React from "react";
-import { featuresData } from "../../data/featuresData";
+import { featuresData } from "../../data/Data";
 import FrameItem from "./frameItem/FrameItem";
 import "./Features.css";
 function Features() {

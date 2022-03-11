@@ -1,10 +1,10 @@
 @import url("http://fonts.cdnfonts.com/css/sf-pro-display");
-@mixin button {
+@mixin button($bg-color) {
     box-sizing: border-box;
     height: 46px;
     width: 148px;
     border-radius: 10px;
-    background: #0077c0;
+    background: $bg-color;
     padding: 3px 20px;
     display: flex;
     justify-content: center;
@@ -12,10 +12,10 @@
     margin: 0px 0px;
     cursor: pointer;
 }
-@mixin buttonText {
+@mixin buttonText($txt-color) {
     width: 100px;
     height: 40px;
-    color: #ffffff;
+    color: $txt-color;
     font-family: "SF Pro Display";
     font-style: normal;
     font-weight: 600;
@@ -89,7 +89,7 @@ img[alt="wanakanda-logo"] {
     margin: 0 127px;
 }
 
-ul {
+.right > ul {
     height: 19px;
     width: 515px;
     border-radius: 0px;
@@ -100,7 +100,7 @@ ul {
     align-items: center;
     margin: 0px 27px;
 }
-li {
+.right > ul > li {
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -116,8 +116,8 @@ li {
     cursor: pointer;
 }
 .Makers-button {
-    @include button();
+    @include button(#0077c0);
 }
-h5 {
-    @include buttonText();
+.Makers-button > h5 {
+    @include buttonText(white);
 }

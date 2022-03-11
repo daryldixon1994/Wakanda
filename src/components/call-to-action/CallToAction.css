@@ -119,7 +119,7 @@ img[alt="wanakanda-logo"] {
   margin: 0px 27px;
 }
 
-.right > ul > li {
+.right > li {
   list-style-type: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -180,4 +180,110 @@ img[alt="wanakanda-logo"] {
       -ms-flex-align: center;
           align-items: center;
 }
-/*# sourceMappingURL=NavBar.css.map */
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.CallToAction {
+  width: 100%;
+  height: 492px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.CallToAction-container {
+  width: 85%;
+  height: 352px;
+  background: #0077c0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.CallToAction-frame-11 {
+  width: 545px;
+  height: 248px;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.ca-button {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 46px;
+  width: 148px;
+  border-radius: 10px;
+  background: white;
+  padding: 3px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px 0px;
+  cursor: pointer;
+}
+
+.ca-button > h5 {
+  width: 100px;
+  height: 40px;
+  color: #0077c0;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.CallToAction-frame-11 > h1 {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125%;
+  margin: 0;
+}
+
+.CallToAction-frame-11 > h6 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 3px;
+  color: #ffffff;
+  margin: 0;
+}
+/*# sourceMappingURL=CallToAction.css.map */

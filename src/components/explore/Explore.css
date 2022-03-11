@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+.explore {
+    background: #c7eeff;
+    width: 100%;
+    height: 640px;
+}
+.explore-container {
+    width: 85%;
+    height: 640px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.explore-content {
+    width: 544px;
+    height: 320px;
+}
+.explore-content > p {
+    width: 450px;
+    height: 72px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+.explore-content > h1 {
+    width: 544px;
+    height: 120px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125%;
+    letter-spacing: -0.5px;
+}
+.explore-image {
+    align-self: flex-end;
+}

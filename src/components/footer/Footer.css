@@ -1,0 +1,151 @@
+@import url("http://fonts.cdnfonts.com/css/sf-pro-display");
+
+* {
+    box-sizing: border-box;
+}
+footer {
+    width: 100%;
+    height: 390px;
+    background: #1d242b;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 64px 120px;
+}
+.footer-company-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 350px;
+    height: 165px;
+    padding: 0px;
+}
+.footer-logo {
+    color: #f7f8f8;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    width: 169.86px;
+    height: 29px;
+}
+.footer-logo > h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    margin: 0px 8px;
+}
+.footer-social-links {
+    width: 176px;
+    height: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    margin: 40px 0px;
+}
+.footer-company-info p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #d9dbe1;
+}
+.footer-links {
+    width: 725px;
+    height: 282px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+.footer-col1,
+.footer-col2 {
+    width: 170px;
+    height: 262px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    margin: 0px 30px;
+}
+.footer-col3 {
+    width: 255px;
+    height: 94px;
+    margin: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footer-links ul {
+    width: 160px;
+    height: 178px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    margin: 24px 0px;
+}
+.footer-links li {
+    list-style-type: none;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 26px;
+    color: #d9dbe1;
+    margin: 6px 0px;
+    cursor: pointer;
+}
+.footer-links h1 {
+    width: 220px;
+    height: 58px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 30px;
+    color: #ffffff;
+    margin: 16px 0px;
+}
+input {
+    outline-style: none;
+    opacity: 0.5;
+    border-radius: 8px;
+}
+.input-icons i {
+    position: absolute;
+    left: 85%;
+    top: 20%;
+    z-index: 5;
+    cursor: pointer;
+}
+
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+    position: relative;
+}
+input:focus {
+    outline: none;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    background: #4a5055;
+}
+form.input-icons input[type="text"]::placeholder {
+    color: #ffffff;
+    font-size: 1.1em;
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
