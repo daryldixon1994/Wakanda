@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import Features from "./components/features/Features";
+import Hero from "./components/hero/Hero";
+import NavBar from "./components/navigation/NavBar";
+import SocialProof from "./components/social-proof/SocialProof";
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <NavBar />
+            <Hero />
+            <SocialProof />
+            <Features />
+        </div>
+    );
 }
 
 export default App;

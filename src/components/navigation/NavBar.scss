@@ -1,0 +1,123 @@
+@import url("http://fonts.cdnfonts.com/css/sf-pro-display");
+@mixin button {
+    box-sizing: border-box;
+    height: 46px;
+    width: 148px;
+    border-radius: 10px;
+    background: #0077c0;
+    padding: 3px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px;
+    cursor: pointer;
+}
+@mixin buttonText {
+    width: 100px;
+    height: 40px;
+    color: #ffffff;
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+//////////////////////////
+.navigation {
+    box-sizing: border-box;
+    width: 100%;
+    height: 94px;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar {
+    box-sizing: border-box;
+    width: 100%;
+    height: 94px;
+}
+.container {
+    box-sizing: border-box;
+    width: 100%;
+    height: 94px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0px;
+}
+.left {
+    width: 149.86px;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 127px;
+}
+.logo {
+    display: inline-block;
+}
+h1[title="logo-text"] {
+    width: 102px;
+    height: 29px;
+    font-family: "SF Pro Display", "sans*serif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin-left: 8px;
+}
+img[alt="wanakanda-logo"] {
+    height: 24.000000000000092px;
+    width: 39.86021041870132px;
+    border-radius: 0px;
+}
+
+.right {
+    display: flex;
+    height: 46px;
+    width: 695px;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 127px;
+}
+
+ul {
+    height: 19px;
+    width: 515px;
+    border-radius: 0px;
+    padding: 0px, 0px, 0px, 27px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0px 27px;
+}
+li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    margin: 0px 17px;
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    cursor: pointer;
+}
+.Makers-button {
+    @include button();
+}
+h5 {
+    @include buttonText();
+}

@@ -1,0 +1,41 @@
+.hero-main {
+    height: 720px;
+}
+.hero-container {
+    box-sizing: border-box;
+    width: 80%;
+    height: 720px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.hero-content {
+    width: 546px;
+    height: 450px;
+}
+
+h1[title="hero-title"] {
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 125%;
+    width: 546px;
+    height: 225px;
+    letter-spacing: -0.5px;
+    color: black;
+}
+p[title="hero-paragraph"] {
+    width: 386px;
+    height: 72px;
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+    color: black;
+}
+.hero-pic {
+    width: 609px;
+}
